@@ -3,17 +3,76 @@ footer{
     width: 100%;
     height: 90px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     border: 2px #0c514a solid ;
     color:#565655;
     text-shadow: 2px 3px 4px;
     font-family: 'Raleway', sans-serif;
-    position:absolute;
-    margin-bottom: 0px;
+    position: absolute;
+    bottom:0;
 }
 
-h3{
+h2{
+    margin-left: 2%;
+    font-size: 1.5em;
+}
+.redes{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.twitter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.facebook{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.instagram{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
-
+.twitter h4 {
+    font-size: 15px;
+    text-align: center;
+}
+.facebook h4 {
+    font-size: 15px;
+    text-align: center;
+}
+.email h4{
+    font-size: 15px;
+    text-align: center;
+}
+.instagram h4{
+    font-size: 15px;
+    text-align: center;
+}
+.twitter img{
+    width: 15%;
+    align-self: center;
+}
+.facebook img{
+    width: 15%;
+    align-self: center;
+}
+.email img{
+    width: 15%;
+    align-self: center;
+}
+.instagram img{
+    width: 15%;
+    align-self: center;
 }

@@ -4,8 +4,8 @@
     justify-content: center;
     align-items: center;
     width: 98%;
-    height: 200%;
-    margin: 2%;
+    height:100%;
+   
 }
 
 #carouselExampleIndicators{
@@ -14,20 +14,22 @@
     width:80%;
     height:10% ;
     
-   
-    
 }
-
 .carousel-control-prev-icon {
     background-color: black;
     width: 3em;
     
 }
-
 .carousel-control-next-icon {
     background-color: black;
     width: 3em;
 }
 
-
-
+.d-block{ 
+    margin-top: 1em;
+    padding:0.5em;
+    width: 90%;
+    height:20em;
+    border-radius:2em;
+    border: 6px white solid;
+}
