@@ -1,0 +1,33 @@
+
+.container-slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+    height: 200%;
+    margin: 2%;
+}
+
+#carouselExampleIndicators{
+    display: flex;
+    justify-content: center;
+    width:80%;
+    height:10% ;
+    
+   
+    
+}
+
+.carousel-control-prev-icon {
+    background-color: black;
+    width: 3em;
+    
+}
+
+.carousel-control-next-icon {
+    background-color: black;
+    width: 3em;
+}
+
+
+
