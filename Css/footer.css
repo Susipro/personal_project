@@ -7,15 +7,14 @@ footer{
     align-items: center;
     border: 2px #0c514a solid ;
     color:#565655;
-    text-shadow: 2px 3px 4px;
+    text-shadow: 1px 2px 3px;
     font-family: 'Raleway', sans-serif;
-    position: absolute;
     bottom:0;
 }
 
 h2{
     margin-left: 2%;
-    font-size: 1.5em;
+    font-size: 1.1em;
 }
 .redes{
     width: 60%;
@@ -60,19 +59,23 @@ h2{
     font-size: 15px;
     text-align: center;
 }
+a {
+    text-align:center;
+}
+
 .twitter img{
     width: 15%;
-    align-self: center;
+   
 }
 .facebook img{
     width: 15%;
-    align-self: center;
+    
 }
 .email img{
     width: 15%;
-    align-self: center;
+    
 }
 .instagram img{
     width: 15%;
-    align-self: center;
+   
 }

@@ -1,0 +1,105 @@
+.twoforms{
+    display:flex;
+    flex-direction: row; 
+    justify-content: space-around;
+}
+
+.acceso{
+    display:flex;
+    flex-direction: column;
+    width: 40%;
+    min-height: 40%;
+    background-color: rgb(187, 227, 236);
+    border: 1px dashed rgb(19, 17, 17);
+    margin:2% 1%;
+}
+
+.creacion{
+    display:flex;
+    flex-direction: column;
+    width: 40%;
+    min-height: 40%;
+    background-color: rgb(236, 187, 224);
+    border: 1px dashed rgb(19, 17, 17);
+    margin:2% 1%;
+}
+
+.acceso .title{
+
+    text-align:center;
+}
+    
+
+.acceso label{
+    margin:2%;
+    text-align: left;
+}
+.creacion .title{
+
+    text-align:center;
+}
+    
+
+.creacion label{
+    margin:2%;
+    text-align: left;
+}
+
+
+
+.acceso input{
+    font-family: Roboto;
+    font-weight: 200;
+    background-color: rgb(233, 229, 229);
+    border: transparent;
+    border-radius: 0.5em;
+    padding: 1%;
+    margin: 2%;
+}
+
+.acceso button{
+    font-family: Roboto;
+    padding: 1%;
+    border:2px solid rgb(133, 112, 73);
+    background-color: rgb(233, 229, 229);
+    border-radius:0.5em;
+    width: 50%;
+    align-self: center;
+    margin: 1%;
+}
+.creacion input{
+    font-family: Roboto;
+    font-weight: 200;
+    background-color: rgb(233, 229, 229);
+    border: transparent;
+    border-radius: 0.5em;
+    padding: 1%;
+    margin: 2%;
+}
+
+.creacion button{
+    font-family: Roboto;
+    padding: 1%;
+    border:2px solid rgb(133, 112, 73);
+    background-color: rgb(233, 229, 229);
+    border-radius:0.5em;
+    width: 50%;
+    align-self: center;
+    margin: 1%;
+}
+
+
+
+ul li{
+    text-decoration: none;
+    list-style: none;
+    padding: 10%;
+    margin: 5%;
+}
+
+ul{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    margin:1%;
+}
