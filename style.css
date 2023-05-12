@@ -10,6 +10,10 @@ body {
     opacity: 0.9;
     background-color:#f5ebe0 ;
     width:100%;
+<<<<<<< HEAD
     /* min-height: 100vh; */
+=======
+    min-height: 100vh;
+>>>>>>> f465cff7d109e76dda6bae4b9e74b3472aea5996
 }
 
