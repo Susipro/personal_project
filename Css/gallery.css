@@ -1,0 +1,13 @@
+.galeria{
+	display: flex;
+	flex-direction: column;
+
+}
+p .frase{
+	font-family: 'Raleway', sans-serif;color: #565655;
+		text-shadow: 2px 3px 4px;
+}
+.img-fluid{
+	width: 100%;
+	height: 90%;
+}
